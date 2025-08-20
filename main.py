@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import sqlite3
 
-bot = telebot.TeleBot('7949479454:AAHigt_Hx5U0hXeyFXIGrEmMG_yVT0iBd68')  # вставь свой токен
+bot = telebot.TeleBot('7949479454:AAHigt_Hx5U0hXeyFXIGrEmMG_yVT0iBd68')  # токен
 
 bm = "Большая Морская, 18"
 vz = "Вознесенский, 44-46 / Садовая, 54"
