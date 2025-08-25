@@ -4,14 +4,10 @@ import sqlite3
 import os
 from dotenv import load_dotenv
 
-<<<<<<< HEAD
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 bot = telebot.TeleBot(BOT_TOKEN)
-=======
-bot = telebot.TeleBot('7949479454:AAHigt_Hx5U0hXeyFXIGrEmMG_yVT0iBd68')  # токен
->>>>>>> b59d5fa4c1ecb82920405aacadf1ffecfccc955c
 
 bm = "Большая Морская, 18"
 vz = "Вознесенский, 44-46 / Садовая, 54"
